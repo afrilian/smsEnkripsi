@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/seip_desc"
+        android:src="@drawable/seip_banner" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms" />
+
+    <Button
+        android:id="@+id/datapesan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datapesan" />
+
+    <Button
+        android:id="@+id/sent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sent" />
+
+    <Button
+        android:id="@+id/keyManage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/key_manage" />
+
+    <!--
+         <Button
+        android:id="@+id/help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help" />
+    -->
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit" />
+
+</LinearLayout>
